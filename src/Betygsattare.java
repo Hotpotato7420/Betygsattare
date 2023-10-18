@@ -6,7 +6,7 @@ public class Betygsattare {
 
         int poaeng = Integer.parseInt(JOptionPane.showInputDialog(null, "Hur många poaeng blev det?"));
         if (poaeng > 30 || poaeng < 0) {
-            JOptionPane.showMessageDialog(null, "Felaktig data, för högt/lågt poäng");
+            JOptionPane.showMessageDialog(null, "Felaktig data, för högt eller lågt poäng");
         } else if (poaeng < 15) {
             JOptionPane.showMessageDialog(null, "Provet fick ett F");
         } else if (15 <= poaeng && poaeng < 18) {
